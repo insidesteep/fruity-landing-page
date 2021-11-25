@@ -1,0 +1,75 @@
+.product {
+  &__img {
+    height: 197px;
+    border-radius: 9px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 33px;
+
+    &--bg-banana {
+      background-color: #ffd400;
+    }
+    &--bg-pomegranate {
+      background-color: #ffe3e2;
+    }
+    &--bg-orange {
+      background-color: rgba(245, 188, 91, 0.75);
+    }
+    &--bg-avocado {
+      background-color: #edf2f5;
+    }
+    &--bg-red-apple {
+      background-color: rgba(246, 118, 109, 0.6);
+    }
+    &--bg-green-apple {
+      background-color: #bed09b;
+    }
+    &--bg-strawberry {
+      background-color: #ffbab5;
+    }
+    &--bg-watermelon {
+      background-color: #e9f1f3;
+    }
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 34px;
+  }
+
+  &__name {
+    font-family: "Gilroy Semi-Bold";
+    font-size: 20px;
+    line-height: 23px;
+    color: $text-color-1;
+  }
+
+  &__price {
+    font-family: "Gilroy Semi-Bold";
+    font-size: 18px;
+    line-height: 21px;
+    color: $text-color-1;
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 36px;
+  }
+
+  &__weight {
+    font-family: "Gilroy Semi-Bold";
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(2, 40, 63, 0.81);
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+}

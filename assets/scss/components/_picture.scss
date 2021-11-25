@@ -1,0 +1,12 @@
+.picture {
+  border-radius: 34px;
+  width: 235px;
+
+  &--middle {
+    width: 100%;
+  }
+
+  &--big {
+    border-radius: 75px;
+  }
+}

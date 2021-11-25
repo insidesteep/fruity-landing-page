@@ -1,0 +1,59 @@
+.header {
+  background-color: #fff9f2;
+
+  &__container {
+    position: relative;
+  }
+
+  &__container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -350px;
+    width: 646px;
+    height: 100%;
+    background-color: $accent-color-light;
+    z-index: 1;
+  }
+
+  .hero {
+    &__img {
+      position: relative;
+      z-index: 1;
+    }
+
+    &-title {
+      margin-bottom: 60px;
+
+      span {
+        color: #233506;
+      }
+    }
+
+    .description {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .hero__img {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    &__container::before {
+      display: none;
+    }
+
+    .hero__img {
+      display: none;
+    }
+
+    .hero__left {
+      padding-bottom: 50px;
+    }
+  }
+}

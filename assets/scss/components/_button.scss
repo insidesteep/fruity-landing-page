@@ -1,0 +1,44 @@
+.btn {
+  width: 106px;
+  height: 40px;
+  background: $accent-color-light;
+  border-radius: 8px;
+  width: 106px;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  &--nav {
+    width: 140px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 22px;
+    font-family: "Gilroy Medium", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: $accent-color;
+  }
+
+  &--icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #fff;
+  }
+
+  &--with-icon {
+    font-family: "Sofia Pro Medium";
+    width: 210px;
+    height: 66px;
+    border-radius: 33px;
+    background-color: $accent-color-light;
+    line-height: 18px;
+
+    color: #ffffff;
+
+    img {
+      margin-left: 19px;
+    }
+  }
+}
